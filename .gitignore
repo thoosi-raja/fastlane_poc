@@ -75,3 +75,4 @@ yarn-error.log
 
 # android fastlane file
 android/fastlane/firebase_login_creds.json
+android/app/google-services.json
