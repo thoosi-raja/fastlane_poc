@@ -30,12 +30,12 @@ jobs:
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.3'
+        ruby-version: '3.1'
         bundler-cache: true 
     
     - name: Install bundler & Fastlane
       run: |
-        gem install bundler:2.2.27
+        gem install bundler:2.3.3
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
     
