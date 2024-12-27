@@ -42,7 +42,7 @@ jobs:
     - name: Install Firebase app distribution plugin
       working-directory: ./android
       run: bundle list
-      run: bundle install
+    - run: bundle install
 
 
     # - name: Upload .apk to Firebase
