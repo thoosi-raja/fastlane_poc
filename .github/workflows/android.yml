@@ -45,4 +45,5 @@ jobs:
 
 
     - name: Upload .apk to Firebase
+      working-directory: ./android
       run: bundle exec fastlane uploadApkToFirebase
