@@ -47,6 +47,9 @@ jobs:
       working-directory: ./android
       run: bundle install
 
+    - name: Generate firebase login creds file
+      run: echo ${{secrets.FIREBASE_LOGIN_KEY_ID}} | base64 -d > /home/runner/work/fastlane_poc/fastlane_poc/android/fastlane/firebase_login_creds.json
+
 
     - name: Upload .apk to Firebase
       working-directory: ./android
