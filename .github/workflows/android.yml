@@ -11,6 +11,10 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    env:
+      FIREBASE_LOGIN_KEY_ID: ${{secrets.FIREBASE_LOGIN_KEY_ID}}
+      FIREBASE_APP_ID: ${{secrets.FIREBASE_APP_ID}}
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4

@@ -33,9 +33,6 @@ end
 
 lane :deployToFirebase do
 
-  ENV["FIREBASE_LOGIN_CREDENTIALS"] = "fastlane/firebase_login_creds.json"
-  ENV["FIREBASE_APP_ID"] = "1:408474464980:android:7c58e50b8ebdbfa2518141"
-
   # Adjust the `build_type` and `flavor` params as needed to build the right APK for your setup
   gradle(task: "clean")
   
@@ -45,10 +42,10 @@ lane :deployToFirebase do
   )
 
   firebase_app_distribution(
-    app: ENV["FIREBASE_APP_ID"],
+    app: FIREBASE_APP_ID,
     groups: "Demo_Testers",
     android_artifact_type: "APK",
-    service_credentials_file: ENV["FIREBASE_LOGIN_CREDENTIALS"],
+    service_credentials_file: FIREBASE_LOGIN_KEY_ID,
     debug: true
   )
   # ...
