@@ -50,6 +50,10 @@ jobs:
     - name: Save Firebase Login Credentials
       run: echo "${{secrets.FIREBASE_LOGIN_KEY_ID}}" > /home/runner/work/fastlane_poc/fastlane_poc/android/fastlane/firebase_login_creds.json
 
+    - name: Print Firebase Credentials File
+      run: cat /home/runner/work/fastlane_poc/fastlane_poc/android/fastlane/firebase_login_creds.json
+
+
     - name: Upload .apk to Firebase
       working-directory: ./android
       run: bundle exec fastlane deployToFirebase

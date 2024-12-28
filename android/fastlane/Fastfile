@@ -44,7 +44,7 @@ lane :deployToFirebase do
     app: ENV['FIREBASE_APP_ID'],
     groups: "Demo_Testers",
     android_artifact_type: "APK",
-    service_credentials_file: "fastlane/firebase_login_creds.json",
+    service_credentials_file: "/home/runner/work/fastlane_poc/fastlane_poc/android/fastlane/firebase_login_creds.json",
     debug: true
   )
   # ...
