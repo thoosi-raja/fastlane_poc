@@ -42,10 +42,10 @@ lane :deployToFirebase do
   )
 
   firebase_app_distribution(
-    app: FIREBASE_APP_ID,
+    app: ENV['FIREBASE_APP_ID'],
     groups: "Demo_Testers",
     android_artifact_type: "APK",
-    service_credentials_file: FIREBASE_LOGIN_KEY_ID,
+    service_credentials_file: ENV['FIREBASE_LOGIN_KEY_ID'],
     debug: true
   )
   # ...
