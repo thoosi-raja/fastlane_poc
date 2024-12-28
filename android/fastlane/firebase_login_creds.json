@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "fastlane-de04c",
+  "private_key_id": "5840ea56ef851e6c7599bafeaf498a6a2862f5c8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC4ddbgAfe4iFEj\nJhQaztrAJHUWobJ89cXr8rlkKaZ9RdKZsLO2cuxn5ZvKaogSb8U/CQpmKyzDVaxl\nMNX1r/fWtBb0qeDlClBXF+DWeA4ihAkGP8+LNgpTWX+5aUJ4siF49JjpdjYzELbi\nfF7sP75JWic1laXi9t7RNzY3THnr6Rv0O7LGfGW3ERw7vyQ7qaw643SgxnV91tcV\nhN5dO5g2p9ZAdWGpgu+bydpj6actYPgoBSajbHc9Ip+kM6n4rBzloxwJiKEPvusL\nI3p503MRdK9sWL9mGYMe6qJeUgOXC7NY4Hm36pWqskuGMU2Kwz5+lODH8bZIIt/R\nbfZFYcX3AgMBAAECggEAVvmtSytyWC7ifx3FzgwqJf4qvXSZ2gTzAXmOA9YFvDzP\nfAtO+aC/qo+fwTYxGexcx4emQR1remErq/z2beW+iRyaVFvDgIu37REDwWyTUaAL\nN0igPkZJYRqquEyS/KEVWliOv0ovbS2c5jb5dRDrUt/w6/m3YcjAsEqFxFZJiLuu\nluTRNTNR+EIdD8SS+PlOYY/j7pf+N3blI+ZNAzmdcBCfKgTj0uxX+JOqHQvVck9s\n0Smj1ypX7vwMyzNm2jVu+QY87va3nJhR3bOxKMDbxR8S8l8ZFy04Bvu+9Rl33zPC\nNLnz1/VNeW2WHaszpNwtWxifAXpbvE5SH16/Fk1ExQKBgQD++QroP359aKOwuvLi\nuvU6ddzoKyybIr0XN8dO6BateFGBUKEq5hrEkzZ/fsKcpI/rM5AKU3OpVoZut30j\nNGBK+wA88m2QV0G4i/AIEszGqpVMMoVdY6OZXU6XG/QewCRLvK5jCbCbW9Y8QV2b\nFOR2E4JNPpxq5CGlTpFyKn+wMwKBgQC5NBN7+HAghPicj2Kz1t5TzD0xSjIQRnA6\ntXIZP1k19+i6OYfTK4HTYqWAHGn4hNMYhfkcH5sqQKDfpgqZoBIAcjd9VCPDZ25X\n+rqeyEjdkeHeQwzNYIxHfhGd0uJnJbdjoS553KvzZq5M602fx1P1qUJvM0e9TcLA\noCO2YN//LQKBgH0xZUSiIIaNQYp+UNI5AD4DL0OkJ1PJG9VxouBAnxnv8P0wzOHW\neCA7NFAnuoDVYIEZIUmgrjLgdEOavsvxZLKMShKi6l8sKO3ncCVWrcuCaKowSEGR\nsfuU0AjsRdJvf6LcczfXwyqVTjzpz39dI8xCSgGJk538g/S5/jpzWZz3AoGAOhzR\nEFFAPbP7noSPYAbH9FtdyB2T3+96P7G3f5yVDY4ghG6Q4/3+2qlVbQF9bvGem09O\nfzibo4Jr+EFNii7j9yffqX/BSQsnYIvYCwKleoDP8sHvPnJREg3I0VDeoacACE8H\nGk3X1qQdhR1AWiZdffQCWIoqtIe12GNnUU7MenECgYEApPajUdPlySsHxE3pAdJO\njb5KGkiytPqnnxiCO9TXjN+QRycPe5S3qT04EjuNmynQ9atGQhQcj9866L8EVd0a\nNsLR2zBprTVE9tlPq2FDqQ8aKsYPhNhSSTdkrvXB59wUPnt4SyI9d4PX42ByJ8fK\nuFdiELC2/iRQ+XhqmeWxXdY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "app-distribution@fastlane-de04c.iam.gserviceaccount.com",
+  "client_id": "109357958713552883260",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/app-distribution%40fastlane-de04c.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
