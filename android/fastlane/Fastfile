@@ -44,10 +44,16 @@ lane :deployToFirebase do
     app: ENV['FIREBASE_APP_ID'],
     groups: "Demo_Testers",
     android_artifact_type: "APK",
-    service_credentials_file: "fastlane/firebase_login_creds.json",
+    firebase_cli_token: ENV['FIREBASE_TOKEN'],
     debug: true
   )
   # ...
+end
+
+lane :screen do
+
+  capture_android_screenshots
+
 end
 
 
