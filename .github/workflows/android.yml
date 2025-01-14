@@ -47,6 +47,14 @@ jobs:
       working-directory: ./android
       run: bundle install
 
+    - name: Install Firebase
+      working-directory: ./android
+      run: curl -sL https://firebase.tools | bash
+
+    - name: Login Firebase
+      working-directory: ./android
+      run: firebase login:ci
+
     # - name: Save Firebase Login Credentials
     #   run: echo "${{secrets.FIREBASE_LOGIN_KEY_ID}}" > /home/runner/work/fastlane_poc/fastlane_poc/android/fastlane/firebase_login_creds.json
 
